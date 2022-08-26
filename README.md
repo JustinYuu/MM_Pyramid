@@ -6,6 +6,22 @@ Jiashuo Yu, Ying Cheng, Rui-Wei Zhao, Rui Feng, Yuejie Zhang
 
 [Paper](https://arxiv.org/abs/2111.12374)  
 
+## Requirements  
+
+    python==3.6.9  
+    torch==1.8.1  
+    torchvision==0.9.0
+    cuda==11.1  
+    numpy==1.19.5  
+
+## Training
+
+`python main_avvp.py --mode=train`  
+
+## Testing
+
+`python main_avvp.py  --mode=test`  
+
 ## Citation  
 
 If you find our work interesting and useful, please consider citing it.  
